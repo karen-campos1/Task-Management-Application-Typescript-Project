@@ -1,0 +1,275 @@
+/* styling how the dropdown options look */
+.dropdown-options {
+    display: none;
+    position: absolute;
+    /* background-color:#536579; */
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 8px 16px #00bfe3;
+}
+
+/* setting the shape of the drop down options */
+.dropdown:hover .dropdown-options {
+    display: block;
+    list-style-type:none;
+}
+
+.dropdown-options .dropdown-item {
+    color:#f0ec02;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-options .dropdown-item:hover {
+    background-color: #db02a3;
+}
+
+/* Navbar custom styling */
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    background-color:#00bfe3;
+}
+
+#nav1, #navbarDropdown {
+    color:#00bfe3;
+}
+
+/* Modal styling */
+.modal-content {
+    background-color: #000000; /* Black background */
+    color: #00bfe3;
+    box-shadow: 0 8px 16px #00bfe3;
+    border: none;
+}
+
+.btn-close{
+    color: #b6edfa;
+    background-color: #b6edfa;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #db02a3; /* Title color */
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-label {
+    color: #00bfe3;
+}
+
+.form-control {
+    background-color: #222222; /* Darker input background */
+    color: #b6edfa; /* Input text color */
+    border: 1px solid #444444; /* Input border color */
+}
+
+.form-check-label {
+    color: #b6edfa; 
+}
+
+#rememberMe{
+    background-color: #000000;
+    border: 1px solid #e65400;
+}
+
+.btn-primary {
+
+    border: none;
+    width: 100%; /* Full-width button */
+    margin-top: 1rem;
+}
+
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.modal-body p a {
+    color: #e65400; /* Hyperlink text color */
+    text-decoration: none;
+}
+
+.modal-body p a:hover {
+    color: #f0ec02; /* Hyperlink hover color */
+}
+
+.modal-dialog {
+    max-width: 400px; /* Adjust width if necessary */
+    margin: 1.75rem auto;
+}
+/* END OF MODAL STYLING */
+
+body {
+    background-color:#000000;
+    font-family: 'AlibabaSans', 'sans-serif';
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    src: url('./alibaba-sans/') format('woff2'),
+        url('./alibaba-sans/AlibabaSans-Black.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background-color: #000000;
+    color:#db02a3; 
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #db02a3;
+    padding: 0px 0;
+    margin-top: 100px;
+}
+
+.footer img {
+    max-width: 60%;
+    height: auto;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .row .col-md-4 {
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-block-end: 10px;
+    font-family: AlibabaSans-Light;
+}
+
+.footer ul li a:hover {
+    color:#f0ec02!important;
+}
+
+.footer a {
+    text-decoration: none; 
+    color:#b6edfa; 
+}
+
+#login {
+    color: #00bfe3;
+}
+
+.btn {
+    background-color: #e65400;
+    color:#b6edfa;
+    margin: 40px auto; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+
+.card {
+    background-color: #000000;
+    color: #b6edfa;
+    font-family: AlibabaSans-Light;
+    font-size: 20px;
+}
+
+/* ----- What colors work for text on black background from WebAIM -------
+-- black: #000000 (background)
+-- red: #f10101 (works on black background)
+-- bright blue: #0135ce (doesn't work on black background)
+-- baby blue: #00bfe3 (works GREAT on black background)
+-- purple: #23007d (doesn't work on black background)
+-- yellow: #f0ec02 (works GREAT on black background)
+-- magenta: #4f0142 (doesn't work on black background)
+-- orange: #e65400 (works on black background)
+-- pink: #db02a3 (works on black background)
+-- light blue: #b6edfa (works GREAT on black background)
+-- white: ffffff (works GREAT on black background)
+ */
+
+.tbar {
+    background-color: #23007d;
+}
+
+.ptasks {
+    color: #db02a3 ;
+    font-family: AlibabaSans-Light;
+}
+
+.first {
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+}
+.second {
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+.third {
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+.taskmenu {
+    background-color: #00bfe3;
+    color:#000000 ; 
+    
+}
+
+.cback{
+    background-color: #00bfe3;
+    color: #000000;
+    font-family: AlibabaSans-Light;
+}
+
+.btnc{
+    
+    background-color: #e65400 ;
+    color: #b6edfa;
+}
+.btnc:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+
+.btne {
+    background-color: #00bfe3 ;
+    color: #db02a3;
+
+}
+
+.btne:hover {
+    background-color: #db02a3;
+    color: #00bfe3;    
+}

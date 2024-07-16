@@ -1,0 +1,358 @@
+/* styling how the dropdown options look */
+.dropdown-options {
+    display: none;
+    position: absolute;
+    /* background-color:#536579; */
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 8px 16px #00bfe3;
+}
+
+/* setting the shape of the drop down options */
+.dropdown:hover .dropdown-options {
+    display: block;
+    list-style-type:none;
+}
+
+.dropdown-options .dropdown-item {
+    color:#f0ec02;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-options .dropdown-item:hover {
+    background-color: #db02a3;
+}
+
+/* Navbar custom styling */
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    background-color:#00bfe3;
+}
+
+#nav1, #navbarDropdown {
+    color:#00bfe3;
+}
+
+/* Modal styling */
+.modal-content {
+    background-color: #000000; /* Black background */
+    color: #00bfe3;
+    box-shadow: 0 8px 16px #00bfe3;
+    border: none;
+}
+
+.btn-close{
+    color: #b6edfa;
+    background-color: #b6edfa;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #db02a3; /* Title color */
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-label {
+    color: #00bfe3;
+}
+
+.form-control {
+    background-color: #222222; /* Darker input background */
+    color: #b6edfa; /* Input text color */
+    border: 1px solid #444444; /* Input border color */
+}
+
+.form-check-label {
+    color: #b6edfa; 
+}
+
+#rememberMe{
+    background-color: #000000;
+    border: 1px solid #e65400;
+}
+
+.btn-primary {
+
+    border: none;
+    width: 100%; /* Full-width button */
+    margin-top: 1rem;
+}
+
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.modal-body p a {
+    color: #e65400; /* Hyperlink text color */
+    text-decoration: none;
+}
+
+.modal-body p a:hover {
+    color: #f0ec02; /* Hyperlink hover color */
+}
+
+.modal-dialog {
+    max-width: 400px; /* Adjust width if necessary */
+    margin: 1.75rem auto;
+}
+/* END OF MODAL STYLING */
+
+body {
+    background-color:black;
+    font-family: 'AlibabaSans', 'sans-serif';
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    src: url('./alibaba-sans/') format('woff2'),
+        url('./alibaba-sans/AlibabaSans-Black.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background-color: #000000;
+    color:#db02a3; 
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #db02a3;
+    padding: 0px 0;
+    margin-top: 100px;
+}
+
+.footer img {
+    max-width: 60%;
+    height: auto;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .row .col-md-4 {
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-block-end: 10px;
+    font-family: AlibabaSans-Light;
+}
+
+.footer ul li a:hover {
+    color:#f0ec02!important;
+}
+
+.footer a {
+    text-decoration: none; 
+    color:#b6edfa; 
+}
+
+#copy-banner {
+    color:#b6edfa;
+    background-color:#23007d;
+    border-top: 2px solid #db02a3;
+}
+
+.accent {
+    color:#b6edfa;;
+    font-family: AlibabaSans-Light;
+}
+
+#photo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+#login {
+    color: #00bfe3;
+}
+
+.blurb-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#blurb-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #e65400;
+    color:#b6edfa;
+    margin: 40px auto; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+
+.card-body {
+    background-color: #000000;
+    color: #b6edfa;
+    font-family: AlibabaSans-Light;
+    font-size: 20px;
+}
+
+.far {
+    color: #b6edfa;
+}
+
+.fas{
+    color: #b6edfa;
+}
+
+.features {
+    color:#db02a3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.awards {
+    color:#db02a3;
+}
+
+#top-features-container {
+    text-align: center;
+    max-height:60%;
+}
+
+#overview {
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+#team, #professionals-img{
+    border-radius: 20px;
+    width: auto;
+    border-top: 2px solid #00bfe3;
+}
+
+#team {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 50px;
+}
+
+#professionals {
+    width: 100%;
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+#professionals-img {
+    width: 100%;
+    color:#b6edfa;
+    border-radius: 20px;
+}
+
+#about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #00bfe3;
+    padding-bottom: 30px;
+}
+
+#about-header {
+    color:#db02a3; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: #b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+#award-1 {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Adjust the max-width to make the image wider */
+    padding-top: 25px;;
+}
+
+#rec {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #00bfe3;
+    margin-top: 50px;
+    padding-top: 50px; /* Add padding at the top of the section */
+}
+
+#recognition-box {
+    padding-top: 50px; /* Add padding inside the box to create space at the top */
+    padding-bottom: 20px; /* Add padding at the bottom */
+
+}
+
+#recognition-container {
+    padding-top: 20px; /* Add padding inside the container to ensure space */
+    padding-bottom: 20px;
+}
+
+#features {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* ----- What colors work for text on black background from WebAIM -------
+-- black: #000000 (background)
+-- red: #f10101 (works on black background)
+-- bright blue: #0135ce (doesn't work on black background)
+-- baby blue: #00bfe3 (works GREAT on black background)
+-- purple: #23007d (doesn't work on black background)
+-- yellow: #f0ec02 (works GREAT on black background)
+-- magenta: #4f0142 (doesn't work on black background)
+-- orange: #e65400 (works on black background)
+-- pink: #db02a3 (works on black background)
+-- light blue: #b6edfa (works GREAT on black background)
+-- white: ffffff (works GREAT on black background)
+ */
+

@@ -1,0 +1,317 @@
+/* styling how the dropdown options look */
+.dropdown-options {
+    display: none;
+    position: absolute;
+    /* background-color:#536579; */
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 8px 16px #00bfe3;
+}
+
+/* setting the shape of the drop down options */
+.dropdown:hover .dropdown-options {
+    display: block;
+    list-style-type:none;
+}
+
+#login {
+    color: #00bfe3;
+}
+
+.dropdown-options .dropdown-item {
+    color:#f0ec02;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-options .dropdown-item:hover {
+    background-color: #db02a3;
+}
+
+/* Navbar custom styling */
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    background-color:#00bfe3;
+}
+
+#nav1, #navbarDropdown {
+    color:#00bfe3;
+}
+
+/* Modal styling */
+.modal-content {
+    background-color: #000000; /* Black background */
+    color: #00bfe3;
+    box-shadow: 0 8px 16px #00bfe3;
+    border: none;
+}
+
+.btn-close{
+    color: #b6edfa;
+    background-color: #b6edfa;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #db02a3; /* Title color */
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-label {
+    color: #00bfe3;
+}
+
+.form-control {
+    background-color: #222222; /* Darker input background */
+    color: #b6edfa; /* Input text color */
+    border: 1px solid #444444; /* Input border color */
+}
+
+.form-check-label {
+    color: #b6edfa; 
+}
+
+#rememberMe{
+    background-color: #000000;
+    border: 1px solid #e65400;
+}
+
+.btn-primary {
+    border: none;
+    width: 100%; /* Full-width button */
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #bf029a; /* Button hover color */
+} 
+
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.modal-body p a {
+    color: #e65400; /* Hyperlink text color */
+    text-decoration: none;
+}
+
+.modal-body p a:hover {
+    color: #f0ec02; /* Hyperlink hover color */
+}
+
+.modal-dialog {
+    max-width: 400px; /* Adjust width if necessary */
+    margin: 1.75rem auto;
+}
+.btn {
+    background-color: #e65400;
+    color:#b6edfa;
+    margin: 40px auto; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+/* END OF MODAL STYLING */
+
+body {
+    background-color:black;
+    font-family: 'AlibabaSans', 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    height: 100%
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    src: url('./alibaba-sans/') format('woff2'),
+        url('./alibaba-sans/AlibabaSans-Black.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding:10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #db02a3;
+    padding: 10px 20px;
+}
+
+
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonial-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px #00bfe3;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong{
+    color: #e65400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.name-user span{
+    color: #db02a3 ;
+    font-size: 0.8rem;
+}
+.reviews{
+    color:#f0ec02;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment{
+    font-size: 0.9rem;
+    color:#000000
+}
+
+p{
+    font-family: "Astatic/alibaba-sans/AlibabaSans-Medium.otf";
+    font-size: 18 px;
+    color:#b6edfa
+}
+
+
+footer {
+    background-color: #000000;
+    color:#db02a3; 
+    border-top: 2px solid #23007d;
+    border-bottom: 2px solid #db02a3;
+    padding: 0px 0;
+    margin-top: 55px;
+}
+
+.footer img {
+    max-width: 60%;
+    height: auto;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .row .col-md-4 {
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-block-end: 10px;
+    font-family: AlibabaSans-Light;
+}
+
+.footer ul li a:hover {
+    color:#f0ec02!important;
+}
+
+.footer a {
+    text-decoration: none; 
+    color:#b6edfa; 
+}
+
+#copy-banner {
+    color:#b6edfa;
+    background-color:#23007d;
+    border-top: 2px solid #db02a3;
+}
+
+.accent {
+    color:#b6edfa;;
+    font-family: AlibabaSans-Light;
+}
